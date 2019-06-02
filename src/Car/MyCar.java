@@ -7,7 +7,7 @@ import java.util.Objects;
  * @date: 2019/4/27
  * @description:
  */
-public class MyCar {
+public class MyCar{
     public String name;
     public int ps;
     private int id;
@@ -74,7 +74,7 @@ public class MyCar {
 //    }
 
 
-//实现Compare接口，重写compareTo，0代表重复，不添加
+//实现Comparable接口，重写compareTo，0代表重复，不添加
 //    @Override
 //    public int compareTo(Object o) {
 //        if (o == null) {
